@@ -1,0 +1,322 @@
+body{
+    margin:0;
+    position: relative;
+    font-family: Avenir;
+}
+
+header{
+    position: relative;
+}
+
+h1{
+    font-size: 40px;
+}
+
+/*---------------------- HEADER --------------------- */
+
+#screen1{
+    background-image: url(img/bgimage.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+nav{
+    width: 100%;
+    background-color: white;
+    padding-right: 50px;
+    position: absolute;
+}
+nav > img{
+    width: 8%;
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+ul {
+    width: 100%;
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    list-style: none;
+}
+li {
+    float: right;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 30px 25px;
+    text-decoration: none;
+    font-size: 16px;
+}
+li a:hover {
+    color: grey;
+}
+
+header > nav > img{
+    width: 65px;
+}
+
+header > div > h1{
+    margin-top: 300px;
+    color: white;
+}
+
+header > div{
+    text-align: center;
+}
+
+header > div > button{
+    padding: 15px 25px 15px 25px;
+    border: none;
+    border-radius: 30px;
+}
+
+header > div > button > a{
+    text-decoration: none;
+    color: black;
+}
+header > div > button > a:hover{
+    text-decoration: none;
+    color: grey;
+}
+
+
+/*---------------------- ZONE REASSURANCE --------------------- */
+
+#screen2{
+    min-height: 25vh;
+    background-color: #E8E8E8;
+    text-align: center;
+}
+
+.zone{
+    display: inline-block;
+    width: 400px;
+    height: 100px;
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+
+#zone1 > img{
+    width: 70px;
+}
+
+#zone2 > img{
+    width: 50px;
+}
+
+#zone3 > img{
+    width: 50px;
+}
+
+
+
+
+
+/*---------------------- Texte explicatif --------------------- */
+
+
+#screen3{
+    margin: 0;
+    background-color: white;
+    min-height: 80vh;
+    /*display: flex;*/
+    justify-content: center;
+    text-align: center;
+
+}
+
+h2, p{
+    margin-top: 0;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+h2{
+    padding-top: 80px;
+}
+
+
+
+
+/*---------------------- BLOCS --------------------- */
+
+
+.blocs{
+    width: 400px;
+    height: 300px;
+    margin-top: 80px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: grey;
+    display: inline-block;
+}
+
+#bloc1{
+    background-image: url(img/img3.jpg);
+    background-size: cover;
+}
+
+#bloc2{
+    background-image: url(img/img4.jpg);
+    background-size: cover;
+}
+
+#bloc3{
+    background-image: url(img/img5.jpg);
+    background-size: cover;
+}
+
+
+
+
+/*---------------------- QUIZZ --------------------- */
+
+
+
+
+#screen4{
+    width: 1440px;
+    height: 250px;
+    margin-top: 80px;
+    background-color: grey;
+    display: inline-block;
+    text-align: center;
+    background-image: url(img/img10.png);
+    background-size: cover;
+}
+
+#screen4 > button{
+    margin-top: 20px;
+    padding: 15px 25px 15px 25px;
+    border: none;
+    border-radius: 30px;
+}
+
+#screen4 > button > a{
+    text-decoration: none;
+    color: black;
+}
+
+#screen4 > button > a:hover{
+    text-decoration: none;
+    color: grey;
+}
+
+/*---------------------- TEMOIGNAGES --------------------- */
+
+ #screen5{
+    width: 1440px;
+    height: 350px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.temoignage {
+    width: 580px;
+    height:250px;
+    display: inline-block;
+    background-color: grey;
+    border-radius: 30px;
+}
+
+/*#photo1 {
+    width: 40px;
+    border-radius: 30px;
+    background-image: url(lauren.jpg);
+}*/
+
+
+/*---------------------- Contact --------------------- */
+
+#screen6{
+    padding-top: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 1440px;
+    height: 500px;
+    background-color: #E8E8E8;
+    text-decoration: none;
+}
+
+#footer1 > button {
+    padding: 15px 25px 15px 25px;
+    background-color: #4F76AA;
+    border-radius: 30px;
+    border: none;
+}
+
+#footer1 > button > a {
+  color: white;
+  text-decoration: none;
+}
+
+#footer1 > button > a:hover {
+  color: #E8E8E8;
+  text-decoration: none;
+}
+
+#footer2, .copyright{
+  margin-top: 20px;
+}
+
+#footer2 > a > img {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+
+
+/*---------------------- Form --------------------- */
+
+.contactform{
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 60px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 0px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #638EBB;
+  color: white;
+  padding: 15px 25px 15px 25px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #83ABCD;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 30px;
+  background-color: #f2f2f2;
+  padding: 15px 25px 15px 25px;
+}
